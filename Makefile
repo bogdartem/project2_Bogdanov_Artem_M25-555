@@ -16,3 +16,6 @@ package-install:
 info:
 	poetry show
 	poetry env info
+
+lint:
+	poetry run ruff check .
